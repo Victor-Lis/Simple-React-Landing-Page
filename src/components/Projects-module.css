@@ -1,0 +1,129 @@
+.projects{
+
+    width: 100%;
+
+}
+
+.projects-title{
+
+    width: 90%;
+
+    padding: 5%;
+
+    text-align: center;
+
+    color: rgb(138, 69, 222);
+    filter: drop-shadow(02px 02px 1px rgb(113, 35, 207)); 
+
+}
+
+.projects-area{
+
+    width: 90%;
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-card{
+
+    width: 60%;
+    padding: 5%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    border-radius: 10px;
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    margin-bottom: 5%;
+
+    color: rgb(138, 69, 222);
+    background-color: rgb(237, 237, 237);
+    filter: drop-shadow(0px 0px 25px rgb(125, 125, 125)); 
+
+}
+
+.project-card > h2{
+
+    margin-bottom: 10%;
+    filter: drop-shadow(01px 01px 1px rgb(138, 69, 222)); 
+
+}
+
+.project-card > p{
+
+    width: 90%;
+
+    font-size: 0.90rem;
+
+    margin-bottom: 5%;
+
+}
+
+.project-card > button{
+
+    border: none;
+    margin-top: 5%;
+    border-radius: 10px;
+
+    width: 35%;
+    height: 20%;
+    padding: 2%;
+    max-width: 80px;
+
+    color: #fff;
+    background-color: rgb(138, 69, 222);
+    filter: drop-shadow(01px 01px 1px rgb(138, 69, 222)); 
+    transition: 1s;
+
+}
+
+.project-card > button:hover{
+
+    color: rgb(138, 69, 222);
+    background-color: #fff;
+    filter: drop-shadow(01px 01px 1px rgb(138, 69, 222)); 
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+
+@media (min-width: 600px){
+
+    .project-card{
+
+        padding: 3.5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+    .project-card > p{
+
+        font-size: 1.2rem;
+
+    }
+
+}
+
+@media (min-width: 980px){
+
+    .project-card{
+
+        padding: 2.5%;
+        padding-top: 3.5%;
+        padding-bottom: 3.5%;
+
+    }
+
+}

@@ -13,11 +13,11 @@ function Footer() {
     
     <footer>
 
-        <h3 className="footer-title"> My social medias </h3>
+        <h3 className="footer-title"> Minhas mídias profissionais: </h3>
 
         <div className="footer-row">
             
-          <img className="footer-img pulsar" alt="GitHub img" onClick={goToGitHub} src={Github} /> 
+          <img className="footer-img pulsar" alt="GitHub" onClick={goToGitHub} src={Github} /> 
         
         </div>
 
