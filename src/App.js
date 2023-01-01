@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 function App() {
 
   const [page, setPage] = useState('home')
-  const [navTitle, setNavTitle] = useState('My Projects') 
+  const [navTitle, setNavTitle] = useState('Meus Projetos') 
   
   function changePage(){
 
