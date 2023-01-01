@@ -12,19 +12,19 @@ function App() {
   
   function changePage(){
 
-    {(page=='home') ? (
+    if(page=='home'){
         
-      setPage('my-projects'),
-      setNavTitle('Home'),
+      setPage('my-projects')
+      setNavTitle('Home')
       console.log(page)
 
-    ) : (
+    }else{
 
-      setPage('home'),
-      setNavTitle('My Projects'),
+      setPage('home')
+      setNavTitle('My Projects')
       console.log(page)
 
-    )}
+    }
 
   }
 

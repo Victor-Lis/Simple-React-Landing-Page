@@ -12,7 +12,7 @@ function Main() {
 
     {
 
-        (month < 1 || (month === 1 && day < 16))?(
+        ((month < 1) || (month === 1 && day < 16))?(
         
             year--
 

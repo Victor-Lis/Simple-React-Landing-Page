@@ -100,6 +100,12 @@
 
 @media (min-width: 600px){
 
+    .projects-title{
+
+        padding-bottom: 0%;
+
+    }
+
     .project-card{
 
         padding: 3.5%;
