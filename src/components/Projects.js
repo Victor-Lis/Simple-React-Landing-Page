@@ -9,6 +9,12 @@ function Projects() {
 
   }
 
+  function redirectToViaCepCode(){
+
+    window.location="https://viacep-api.netlify.app/"
+
+  }
+
   return (
     
     <main className='projects'>
@@ -33,7 +39,7 @@ function Projects() {
 
             <p> Este é um projeto que fiz para testar meus primeiros contatos com APIs "mais complexas", meus outros contatos foram com APIs muito simples que trabalhavam com um dado simples, então escolhi a "Via Cep API" para trabalhar já que é um sistema com varios tipos de dados, e me forçaria a trabalhar de maneira ainda mais complexa com JSON.</p>
 
-            <button onClick={redirectToAirPortCode}> Ver! </button>  
+            <button onClick={redirectToViaCepCode}> Ver! </button>  
 
           </div>
 
