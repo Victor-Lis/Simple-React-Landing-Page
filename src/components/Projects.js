@@ -27,6 +27,16 @@ function Projects() {
 
           </div>
 
+          <div className='project-card'>
+
+            <h2> Via Cep API </h2>
+
+            <p> Este é um projeto que fiz para testar meus primeiros contatos com APIs "mais complexas", meus outros contatos foram com APIs muito simples que trabalhavam com um dado simples, então escolhi a "Via Cep API" para trabalhar já que é um sistema com varios tipos de dados, e me forçaria a trabalhar de maneira ainda mais complexa com JSON.</p>
+
+            <button onClick={redirectToAirPortCode}> Ver! </button>  
+
+          </div>
+
       </div>
 
     </main>
