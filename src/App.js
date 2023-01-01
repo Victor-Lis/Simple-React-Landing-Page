@@ -15,13 +15,13 @@ function App() {
     if(page=='home'){
         
       setPage('my-projects')
-      setNavTitle('Home')
+      setNavTitle('Início')
       console.log(page)
 
     }else{
 
       setPage('home')
-      setNavTitle('My Projects')
+      setNavTitle('Meus Projetos')
       console.log(page)
 
     }

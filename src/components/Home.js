@@ -42,7 +42,7 @@ function Main() {
 
             <h3 className="main-title-2"> Meu nome é Victor Lis </h3>
 
-            <h4 className="main-text-body" id="my-years-old"> Tenho {myAge} anos e estou estudando programação, e este site é apenas um de meus projetos, dentro desse mundo tão amplo que é a programação pretendo trabalhar na area Front-End, mas também gostaria de ter um mínimo entendimento Back-End. </h4>
+            <h4 className="main-text-body" id="my-years-old"> Tenho {myAge} anos e estou estudando programação, e este site é apenas um de meus projetos, dentro desse mundo tão amplo que é a programação pretendo trabalhar na área Front-End, mas também gostaria de ter um mínimo entendimento Back-End. </h4>
 
             <h4 className="main-subtitle-2"> Minhas linguagens / frameworks favoritos: </h4>
 
