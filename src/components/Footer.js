@@ -13,7 +13,7 @@ function Footer() {
     
     <footer>
 
-        <h2 className="footer-title"> Minhas mídias profissionais: </h2>
+        <h4 className="footer-title"> Minhas mídias profissionais: </h4>
 
         <div className="footer-row">
             
