@@ -28,14 +28,6 @@ nav{
 
 }
 
-.nav-title-clickabe{
-
-    color: rgb(113, 35, 207);
-    filter: drop-shadow(02px 02px 1px rgb(46, 5, 106)); 
-    transition: 1s;
-
-}
-
 .nav-title-clickabe:hover{
 
     color: #fff;
@@ -66,6 +58,16 @@ nav{
 
     }
 
+    .nav-title{
+
+        color: rgb(113, 35, 207);
+        filter: drop-shadow(02px 02px 1px rgb(46, 5, 106)); 
+        transition: 1s;
+
+        font-size: 1.2rem;
+        
+    }
+    
     .nav-img{
   
         width: 10%;
