@@ -15,7 +15,7 @@ function Nav({navTitle, changePage}){
 
       </div>
 
-      <h3 className="nav-title" onClick={changePage}> {navTitle} </h3>
+      <h3 className="nav-title-clickabe" onClick={changePage}> {navTitle} </h3>
 
     </nav>
 

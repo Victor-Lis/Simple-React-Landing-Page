@@ -28,7 +28,15 @@ nav{
 
 }
 
-.nav-title:hover{
+.nav-title-clickabe{
+
+    color: rgb(113, 35, 207);
+    filter: drop-shadow(02px 02px 1px rgb(46, 5, 106)); 
+    transition: 1s;
+
+}
+
+.nav-title-clickabe:hover{
 
     color: #fff;
     filter: drop-shadow(02px 02px 1px rgb(113, 35, 207)); 
