@@ -19,7 +19,7 @@ function Projects() {
     
     <main className='projects'>
 
-      <h1 className='projects-title'> My Projects </h1>
+      <h1 className='projects-title'> Meus Projetos </h1>
 
       <div className='projects-area'> 
 
